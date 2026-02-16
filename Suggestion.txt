@@ -1,0 +1,42 @@
+After you do Voice and Auido Module, there is no way to deactivate it. 
+When you biometric identifucation, it opens bing but not for the entire pop up just 1/6 of the screen.
+It says it will remeber the prompt you inputed, but when you ask there is no response
+When I say check weather it repeats, the same output that it say when you input "Train a new command"
+Also the terminal out, is the spaced out when the system responds. If you are trying to mimick a terminal put a "_"
+The command "Increase system activity visuals" does the same thing as the command "Tell me about the system health."
+The command "Mute audio" doesn't not mute the audio but instead pulls out a pop up 
+Not sure about the other related commands to Mute audio because I can't check them without the command "Mute audio"
+The command "Clear run data" clear the terminal out data. 
+
+
+I don't if this AI terminal runs manually from a google spreadsheet or it builds on itself so if some of this command. 
+It could be either Google Sheets as a “Fake Brain”, Keyword + Rule-Based Engine, Hidden Third-Party API (LLM, but Not Local), Local Storage / IndexedDB as “Memory” 
+If it is so than you might want to ask any AI platform for a comprehensive list of standard command-prompt capabilities(or any other specific ones you are looking for), then use that list to program AVCKS to support those functions through voice interaction.
+
+
+Changes to add: 
+Add a scroll view to the terminal output.
+Improve user-friendliness by letting users resize the terminal output.
+AR rings could change based on commands a user enters.
+When the website first opens, it asks for the user’s location; if the user allows it, you could display their weather on the interface when they input that specific command. btw it displays it on the interface. 
+As a user, just staring at the webpage feels a bit boring, so add more animation to the text, more color variation, and possibly a richer background to make it feel more futuristic, which matches the vibe you’re already creating with the font and color choices.
+
+Functions to add: 
+Add command history and replay so users can scroll through and re-run previous commands.
+Add auto-complete and command suggestions to predict what users are typing or saying.
+Add user profiles to save preferences like theme, voice, and permissions.
+Add command shortcuts or macros so multiple actions can be triggered with one command.
+Add dynamic theme switching so colors, HUD styles, or modes can change via commands.
+Add attention and focus mode to dim background visuals and highlight critical outputs.
+Add live data widgets for time, date, weather, or system metrics.
+Add error explanation mode so the AI explains failures in plain language.
+Add conversation export so session logs can be downloaded or copied.
+Add onboarding or guided tour to give first-time users an interactive walkthrough.
+Add context locking to temporarily focus the AI on a specific topic or task.
+Add ambient mode with idle animations, subtle sounds, and rotating intel when the system is unused.
+Add command confidence feedback to show how certain the system is about its responses.
+Add accessibility controls for voice speed, font size, contrast, and motion reduction.
+Add an offline mode indicator to clearly show when the system is running fully local.
+
+You can also add a AI agent to explain your webpage in simplier terms for new or users that don't really know what they are doing. plus its fun to abuse a AI agent. I know that chatgpt offers a free API I think that you can input into your webpage. 
+

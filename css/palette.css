@@ -1,0 +1,82 @@
+
+/* --- Command Palette --- */
+#command-palette {
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+}
+
+.palette-window {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    max-width: 90vw;
+    background: rgba(10, 15, 20, 0.95);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 243, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.palette-search {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 243, 255, 0.2);
+}
+
+.palette-icon {
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#palette-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.1rem;
+    width: 100%;
+    outline: none;
+}
+
+.palette-results {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.palette-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.2s;
+}
+
+.palette-item:last-child {
+    border-bottom: none;
+}
+
+.palette-item:hover, .palette-item.selected {
+    background: rgba(0, 243, 255, 0.1);
+    padding-left: 25px;
+}
+
+.palette-item .cmd-text {
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.palette-item .cmd-key {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    font-family: monospace;
+}
